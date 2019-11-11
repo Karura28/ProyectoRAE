@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#fcfcfc"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtclose"
+            android:layout_width="49dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:text="X"
+            android:textColor="#090808"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="133dp"
+            android:layout_height="129dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/soltar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="¿Desea cerrar la app?"
+            android:textColor="#130D0D"
+            android:textStyle="bold" />
+
+
+
+
+        <Button
+            android:id="@+id/btnfollow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:onClick="onClickStop"
+            android:text="Aceptar"
+            android:background="#DFDBDB"
+            android:textColor="#090808" />
+    </LinearLayout>
+
+</LinearLayout>
